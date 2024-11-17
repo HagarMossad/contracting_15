@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-12 17:04:20.742226",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "draw_name",
+  "attach",
+  "status",
+  "approve_date",
+  "submit_approve",
+  "reject_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "draw_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Draw Name"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attach"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Approve\nSubmit\nReject"
+  },
+  {
+   "fieldname": "approve_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Approve Date"
+  },
+  {
+   "fieldname": "submit_approve",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Submit Approve"
+  },
+  {
+   "fieldname": "reject_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Reject Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-12 17:04:20.742226",
+ "modified_by": "Administrator",
+ "module": "contracting_15",
+ "name": "Comparison Draws",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
