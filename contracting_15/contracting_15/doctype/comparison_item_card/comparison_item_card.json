@@ -38,8 +38,7 @@
   "qty_from_comparison",
   "margin_percent",
   "margin_rate",
-  "total_with_margin",
-  "amended_from"
+  "total_with_margin"
  ],
  "fields": [
   {
@@ -85,7 +84,6 @@
    "options": "Project"
   },
   {
-   "fetch_from": "comparison.cost_center",
    "fieldname": "cost_center",
    "fieldtype": "Link",
    "label": "Cost Center",
@@ -246,14 +244,13 @@
    "no_copy": 1,
    "options": "Comparison Item Card",
    "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-11-14 11:40:52.091120",
+ "modified": "2024-12-01 11:13:31.175662",
  "modified_by": "Administrator",
  "module": "contracting_15",
  "name": "Comparison Item Card",

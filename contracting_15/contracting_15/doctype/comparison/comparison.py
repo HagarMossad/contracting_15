@@ -584,6 +584,7 @@ def create_item_cart(items,comparison,tender=None):
 	items = json.loads(items).get('items')
 	print("from ifffffffffffff",items)
 	print("comparison",comparison)
+	comparison = frappe.get_doc("Comparison" , comparison)
 	name_list = []
 	for item in items:
 		doc = frappe.new_doc("Comparison Item Card")
